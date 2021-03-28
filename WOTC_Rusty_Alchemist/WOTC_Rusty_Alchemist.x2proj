@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>bfcae323-a110-4728-898c-bb81a52a6e13</Guid>
+    <Name>WOTCRustyAlchemist</Name>
+    <Description>This is a class mod designed around using Mitzruti's Immolator + Chemthrower abilities.
+
+</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>WOTC_Rusty_Alchemist</AssemblyName>
+    <RootNamespace>WOTC_Rusty_Alchemist</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Content" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\WOTCRustyAlchemist\" />
+    <Folder Include="Src\WOTCRustyAlchemist\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComAbilityToSlotReassignment.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComClassData_ABBRoulette.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEncyclopedia.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMZAmmoMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMZChemthrower.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComMZ_RD_AlchemistTweaks.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPistolSlot.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPromotionUIMod.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComStrategyTuning.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_RustyAlchemist.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\WOTCRustyAlchemist\Classes\UIStrategyScreenListener_RustyAlchemist_GTS.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCRustyAlchemist\Classes\X2Ability_RustyAlchemist_ChemPassivesIconSwap.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\WOTCRustyAlchemist\Classes\X2DownloadableContentInfo_WOTCRustyAlchemist.uc" />
+    <Content Include="Src\WOTCRustyAlchemist\Classes\X2StrategyElement_RustyAlchemist_GTS.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
